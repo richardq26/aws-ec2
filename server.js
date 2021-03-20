@@ -1,10 +1,9 @@
 const express= require('express');
 
 const app = express();
-app.set('port', 3000);
-const puerto = app.get('port');
+
 app.get('/', (req,res)=>
-    res.send('AWS EC2')
+    res.send('Hola mundo desde aws')
 )
 
 app.listen(3000);

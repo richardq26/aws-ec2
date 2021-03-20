@@ -3,3 +3,6 @@ ssh ubuntu@ip -i node.pem
 
 ## Para conectar:
 sudo apt update && sudo apt upgrade
+
+### En nvm
+source ~/.bashrc
